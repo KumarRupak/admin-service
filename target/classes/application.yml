@@ -1,8 +1,0 @@
-server:
-  port: 8083
-
-spring:
-  application:
-    name: client-admin
-
-
