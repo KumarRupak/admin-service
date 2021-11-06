@@ -11,7 +11,7 @@ import lombok.Data
 
 @Data
 @AllArgsConstructor
-open class CustomerPredctionsTransport {
+class CustomerPredctionsTransport {
     var customerId = 0
     var gender //male(1)-female(0)-others(2)
             : String? = null

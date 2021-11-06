@@ -17,7 +17,7 @@ import org.springframework.data.mongodb.core.mapping.Document
 @AllArgsConstructor
 @NoArgsConstructor
 @Document
- open class OpenAccount{
+open class OpenAccount{
     var accountNumber: Long? = null
     var ifscCode: String? = null
     var balance: Long? = null
